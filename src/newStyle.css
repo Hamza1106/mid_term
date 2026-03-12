@@ -1,0 +1,42 @@
+    .main{
+padding:20px;
+transition:0.3s;
+}
+
+.light{
+background:white;
+color:black;
+}
+
+.dark{
+background:grey;
+color:white;
+}
+
+.count{
+color: violet;
+font-size:40px;
+margin:10px;
+}
+
+.container{
+position:relative;
+width:270px;
+}
+
+.diver{
+background:lightgrey;
+height:10px;
+width:270px;
+border-radius:5px;
+}
+
+.divers{
+background:blueviolet;
+height:10px;
+position:absolute;
+top:0;
+left:0;
+border-radius:5px;
+transition:1s linear;
+}

@@ -1,0 +1,32 @@
+.count{
+    color : violet ;
+
+    font-size: 40px;
+    margin: 10px;
+    
+
+}
+.container{
+    
+   position: relative;
+   
+}
+.divers{
+    border-radius: 5px;
+    background-color:blueviolet;
+    height: 10px;
+    width: 270px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: 1s linear;
+}
+.diver{
+    border-radius: 5px;
+    background-color:lightgrey;
+    height: 10px;
+    width: 270px;
+    z-index: 0;
+    
+}
