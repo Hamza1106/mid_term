@@ -82,6 +82,9 @@ function App() {
     }
     const value = (counter/30) * 270;
 
+    function stop_handle(){
+      setRunning(false)
+    }
   return (
 
     <>
@@ -97,8 +100,12 @@ function App() {
     <button onClick={start_handle} >Start</button>
     <br/>
     <button onClick={reset_handle}>Reset</button>
+    <br/>
+    <button onClick={stop_handle}>Stop</button>
+    
     <br></br>
     <button onClick={handle_Toggle}>Toggle Theme</button>
+    
     </>
   )
 }
